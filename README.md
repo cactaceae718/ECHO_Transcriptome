@@ -1,1 +1,1 @@
-# ECHO_Transcriptome
+# ECHO_Transcriptome SLURM 
