@@ -91,8 +91,8 @@ plotPCcorrs(res_pca_vsd, logp = T, pc =4)
 
 library("ggplot2")
 percentVar <- pca_vsd$sdev^2/sum(pca_vsd$sdev^2)
-group1 <- dds$preeclamp # according to variable correlation coefficient on first PC1 and PC2 
-group2 <- dds$preterm # according to variable correlation coefficient on first PC3 and PC4 
+group1 <- dds$preeclamp # according to variable correlation coefficient on PC1 and PC2 
+group2 <- dds$preterm # according to variable correlation coefficient on PC3 and PC4 
 df_pca_vsd <- as.data.frame(pca_vsd$x)
 ggplot(data = df_pca_vsd, aes(x = PC1, y = PC2, label = rownames(df_pca_vsd), color = group1, main = "preeclamp")) +
   geom_point() + 
