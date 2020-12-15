@@ -1,4 +1,4 @@
-# This folder has bash and R scripts for HPC NYU Langone Phoenix (SGE)
+# This folder has Shell and R scripts for HPC NYU Langone Phoenix (SGE)
 # Project: ECHO_EWAS Transcriptome Data
 
 Workflow
